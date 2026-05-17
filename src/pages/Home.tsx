@@ -17,7 +17,7 @@ export const Home = () => {
   const stats = [
     { label: 'Tahun Berdiri', value: 1965 },
     { label: 'Mahasiswa Aktif', value: 1200, suffix: '+' },
-    { label: 'Dosen & Staf', value: 45 },
+    { label: 'Dosen & Staf', value: 85 },
     { label: 'Laboratorium', value: 12 },
   ];
 
@@ -112,7 +112,7 @@ export const Home = () => {
                 Kenali Kami
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <Link to="/programs" className="px-10 py-5 border-2 border-white/30 text-white font-bold rounded-full hover:bg-white hover:text-primary transition-all">
+              <Link to="/programs/s1-pendidikan" className="px-10 py-5 border-2 border-white/30 text-white font-bold rounded-full hover:bg-white hover:text-primary transition-all">
                 Program Studi
               </Link>
             </motion.div>
@@ -218,7 +218,7 @@ export const Home = () => {
               { 
                 title: 'Program Studi', 
                 desc: 'Telusuri kurikulum dan profil lulusan S1 & S2.', 
-                link: '/programs', 
+                link: '/programs/s1-pendidikan', 
                 icon: GraduationCap,
                 color: 'bg-blue-500/10 text-blue-600'
               },
@@ -270,7 +270,7 @@ export const Home = () => {
                <div className="relative z-10">
                  <span className="text-accent text-xs font-mono font-bold uppercase tracking-[0.3em] mb-4 block">Akademik</span>
                  <h3 className="text-3xl md:text-4xl font-display font-bold italic mb-6 leading-tight">Mulai Perjalanan Anda di Program Sarjana & Magister.</h3>
-                 <Link to="/programs" className="inline-flex items-center gap-3 text-white border-b-2 border-accent pb-1 font-bold">
+                 <Link to="/programs/s1-pendidikan" className="inline-flex items-center gap-3 text-white border-b-2 border-accent pb-1 font-bold">
                    Lihat Kurikulum
                    <ArrowRight className="w-5 h-5" />
                  </Link>
@@ -368,7 +368,7 @@ export const Home = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16">
             <SectionHeading title="Laboratorium & Fasilitas" subtitle="Infrastruktur lengkap yang mendukung iklim riset kolaboratif antara dosen dan mahasiswa." />
-            <Link to="/programs" className="mb-6 group flex items-center gap-2 text-primary font-bold">
+            <Link to="/programs/s1-pendidikan" className="mb-6 group flex items-center gap-2 text-primary font-bold">
               Lihat Fasilitas Lengkap
               <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
             </Link>
@@ -453,7 +453,7 @@ export const Home = () => {
               <Link to="/contact" className="px-12 py-6 bg-primary text-white font-bold rounded-full hover:scale-105 transition-transform shadow-xl">
                 Hubungi Kami
               </Link>
-              <Link to="/programs" className="px-12 py-6 border-2 border-primary text-primary font-bold rounded-full hover:bg-primary hover:text-white transition-all">
+              <Link to="/programs/s1-pendidikan" className="px-12 py-6 border-2 border-primary text-primary font-bold rounded-full hover:bg-primary hover:text-white transition-all">
                 Program Studi
               </Link>
             </div>

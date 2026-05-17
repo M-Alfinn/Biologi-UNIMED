@@ -2,7 +2,7 @@ import { ContentPage } from '../../pages/PlaceholderPage';
 
 export const S2Pendidikan = () => (
   <ContentPage 
-    title="S2: Pendidikan Biologi"
+    title="S2 Pendidikan Biologi"
     subtitle="Mencetak magister pendidikan biologi yang pakar dalam pengembangan kurikulum, evaluasi, dan inovasi pedagogik."
   >
     <div className="space-y-12">

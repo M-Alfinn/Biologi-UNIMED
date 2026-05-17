@@ -9,13 +9,13 @@ export const Sambutan = () => (
       <div className="flex flex-col md:flex-row gap-10 items-start">
         <div className="w-full md:w-64 aspect-[3/4] rounded-3xl overflow-hidden bg-primary shadow-xl shrink-0">
           <img 
-            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800" 
+            src="/src/assets/kajur.jpeg" 
             alt="Ketua Program Studi" 
-            className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+            className="w-full h-full object-cover"
           />
         </div>
         <div className="space-y-6">
-          <h3 className="text-3xl font-display font-bold text-primary">Dr. Fauziyah Harahap, M.Si.</h3>
+          <h3 className="text-3xl font-display font-bold text-primary">Khairiza Lubis, S.Si., M.Sc., Ph.D</h3>
           <p className="text-primary/40 font-mono text-sm tracking-widest uppercase">Ketua Jurusan Biologi</p>
           <div className="h-1 w-20 bg-accent" />
           <div className="space-y-4 text-primary/70 leading-relaxed italic font-serif-alt text-xl">

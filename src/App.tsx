@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Layout } from './components/layout/Layout';
 import { Home } from './pages/Home';
-import { Programs } from './pages/Programs';
 import { Faculty } from './pages/Faculty';
 import { Contact } from './pages/Contact';
 
@@ -14,6 +13,7 @@ import { Alumni } from './pages/profil/Alumni';
 // Akademik
 import { S1Pendidikan } from './pages/programs/S1Pendidikan';
 import { S1Biologi } from './pages/programs/S1Biologi';
+import { S1PendidikanIpa } from './pages/programs/S1PendidikanIpa';
 import { S2Pendidikan } from './pages/programs/S2Pendidikan';
 import { Pengaturan } from './pages/akademik/Pengaturan';
 
@@ -42,7 +42,6 @@ export default function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/programs" element={<Programs />} />
           <Route path="/faculty" element={<Faculty />} />
           <Route path="/contact" element={<Contact />} />
           
@@ -55,6 +54,7 @@ export default function App() {
           {/* Akademik */}
           <Route path="/programs/s1-pendidikan" element={<S1Pendidikan />} />
           <Route path="/programs/s1-biologi" element={<S1Biologi />} />
+          <Route path="/programs/s1-pendidikan-ipa" element={<S1PendidikanIpa />} />
           <Route path="/programs/s2-pendidikan" element={<S2Pendidikan />} />
           <Route path="/akademik/pengaturan" element={<Pengaturan />} />
 

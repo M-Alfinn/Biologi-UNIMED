@@ -43,6 +43,7 @@ export const Navbar = () => {
           children: [
             { name: 'S1 Pendidikan Biologi', href: '/programs/s1-pendidikan' },
             { name: 'S1 Biologi', href: '/programs/s1-biologi' },
+            { name: 'S1 Pendidikan IPA', href: '/programs/s1-pendidikan-ipa' },
           ]
         },
         {
