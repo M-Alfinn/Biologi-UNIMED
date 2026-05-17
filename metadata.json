@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Bio · UNIMED",
+  "description": "Website profil Jurusan Biologi Universitas Negeri Medan - Menjelajahi Kehidupan, Membangun Masa Depan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
