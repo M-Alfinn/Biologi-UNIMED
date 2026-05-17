@@ -49,7 +49,7 @@ export const Navbar = () => {
         {
           name: 'Program Magister',
           children: [
-            { name: 'S2: Pendidikan Biologi', href: '/programs/s2-pendidikan' },
+            { name: 'S2 Pendidikan Biologi', href: '/programs/s2-pendidikan' },
           ]
         },
         { name: 'Pengaturan Akademik', href: '/akademik/pengaturan' },

@@ -1,4 +1,5 @@
 import { ContentPage } from '../PlaceholderPage';
+import kajurPhoto from '../../assets/kajur.jpeg';
 
 export const Sambutan = () => (
   <ContentPage 
@@ -9,8 +10,8 @@ export const Sambutan = () => (
       <div className="flex flex-col md:flex-row gap-10 items-start">
         <div className="w-full md:w-64 aspect-[3/4] rounded-3xl overflow-hidden bg-primary shadow-xl shrink-0">
           <img 
-            src="/src/assets/kajur.jpeg" 
-            alt="Ketua Program Studi" 
+            src={kajurPhoto} 
+            alt="Ketua Jurusan" 
             className="w-full h-full object-cover"
           />
         </div>
